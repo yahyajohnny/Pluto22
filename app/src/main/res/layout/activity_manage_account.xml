@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#000"
+    tools:context=".ManageAccountActivity">
+
+    <TextView
+        android:id="@+id/manageAccountEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(MAIL) You should never see this."
+        android:textColor="#FFF"/>
+
+
+    <TextView
+        android:id="@+id/manageAccountTextViewAccountVerified"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(ACCOUNT VERFIED) You should never see this."
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/manageAccountTextViewId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(ID) You should never see this."
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/manageAccountButtonSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign Out"
+        android:backgroundTint="#FFF"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/manageAccountButtonSendActivationMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Send Activation Mail"
+        android:backgroundTint="#FFF"
+        android:textColor="#000" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="For security reasons please enter password to delete your account. Deletion cannot be undone"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/manageAccountEditTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:backgroundTint="#FFF"/>
+
+    <Button
+        android:id="@+id/manageAccountButtonDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D82020"
+        android:text="Delete Account"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>

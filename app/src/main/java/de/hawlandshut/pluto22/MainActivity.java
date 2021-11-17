@@ -11,12 +11,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import de.hawlandshut.pluto22.testdata.PostTestData;
+
 public class MainActivity extends AppCompatActivity {
 
     static final String TAG = "xx MainActivity";
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG,"called onStart");
         //TODO: NUR ZUM TESTEN VON SIGNING - MUSS DANACH ENTFERNT WERDEN
         //GEHE DIREKT ZUM START
-        Intent intent = new Intent(getApplication(),SignInActivity.class);
+        Intent intent = new Intent(getApplication(), PostActivity.class);
         startActivity(intent);
     }
 

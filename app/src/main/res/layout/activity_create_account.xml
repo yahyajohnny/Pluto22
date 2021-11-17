@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#000"
+    tools:context=".CreateAccountActivity">
+
+    <EditText
+        android:id="@+id/createAccountEditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail (will not be public)"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:backgroundTint="#FFF"/>
+
+    <EditText
+        android:id="@+id/createAccountEditTextPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password (min 6 chars)"
+        android:inputType="textPassword"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:backgroundTint="#FFF"/>
+
+    <EditText
+        android:id="@+id/createAccountEditTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repeat Password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:backgroundTint="#FFF"/>
+
+    <Button
+        android:id="@+id/createAccountButtonCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Create Account"
+        android:backgroundTint="#FFF"
+        android:textColor="#000" />
+
+
+</LinearLayout>
