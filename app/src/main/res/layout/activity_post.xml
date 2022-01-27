@@ -18,4 +18,27 @@
         android:backgroundTint="#FFF"
         android:textColor="#000"/>
 
+    <EditText
+        android:id="@+id/postEditTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="text"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"/>
+
+    <EditText
+        android:id="@+id/postEditTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="Text"
+        android:inputType="textMultiLine"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#FFF"/>
+
 </LinearLayout>
